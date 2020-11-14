@@ -14,22 +14,22 @@ body{
 }
 .trees{
     position: relative;
-    bottom:-16vh;
+    bottom:-18vh;
     left: 6vh;
 }
 .trees1{
     position: relative;
-    bottom:-14vh;
+    bottom:-20vh;
     left: 20vh;
 }
 .trees2{
     position: relative;
-    bottom:-18vh;
+    bottom:-22vh;
     left: 40vh;
 }
 .trees3{
     position: relative;
-    bottom:-14vh;
+    bottom:-22vh;
     left: 70vh;
 }
 .dino{

@@ -23,6 +23,7 @@ setInterval(()=>{
 	dino=document.querySelector(".dino");
 	gameover=document.querySelector(".gameover");
 	hurdle=document.querySelector(".hurdle");
+	deadMario = document.querySelector(".deadMario");
 	dx=parseInt(window.getComputedStyle(dino,null).getPropertyValue('left'));
 	dy=parseInt(window.getComputedStyle(dino,null).getPropertyValue('top'));
 
@@ -36,6 +37,7 @@ setInterval(()=>{
 		gameover.style.visibility='visible';
 		dino.style.background='#000'
 		dino.style.opacity=0;
+		deadMario.style.opacity = 1;
 		hurdle.classList.remove('hurdleani');
 	}
 	else if(offsetX<145 && cross){

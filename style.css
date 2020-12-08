@@ -42,7 +42,12 @@ body{
     bottom:2vh;
     left: 52px;
 }
-
+.deadMario {
+    padding-left:35vw;
+    padding-top: 12vh;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
 .hurdle{
 	width: 166px;
     height: 113px;
